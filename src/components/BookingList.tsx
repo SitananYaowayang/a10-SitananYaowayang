@@ -14,7 +14,7 @@ export default function ReservationCart(){
         ) : (
             bookItems.map((BookingItem) => (
                 <div 
-                    key={BookingItem.id} 
+                   
                     className="bg-slate-200 rounded px-5 mx-5 py-2 my-2"
                 >
                     <div className="text-xl">ชื่อ-นามสกุล: {BookingItem.nameLastname}</div>
